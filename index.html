@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" type="text/css" href="./index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+     <div id="board">
+      <div class="row">
+        <div class="label">S</div>
+        <div class="card" id="first" draggable="true" style="display: none;"></div>
+      </div>
+
+      <div class="row">
+        <div class="label">A</div>
+       
+      </div>
+
+      <div class="row">
+        <div class="label">B</div>
+        
+      </div>
+
+      <div class="row">
+        <div class="label">C</div>
+
+      </div>
+
+      <div class="row">
+        <div class="label">D</div>
+       
+      </div>
+
+      <div class="row">
+        <div class="label">F</div>
+       
+      </div>
+
+     </div>
+     <div class="container">
+      <h2>Card bank</h2>
+        <div id="bank">
+          
+        </div>
+        <button id="create" onclick="addCard()"> Create Card</button>
+     </div>
+</body>
+
+<script src="./cards.js"></script>
+<script src="./rows.js"></script>
+<script src="./bank.js"></script>
+
+</html>
